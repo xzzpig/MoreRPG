@@ -1,0 +1,12 @@
+name: MoreRPG
+main: com.github.xzzpig.morerpg.Main
+version: 0.1
+author: Mg_P
+commands:
+  MoreRPG:
+    description: MoreRPG的命令帮助
+    usage: §6[MoreRPG]§2/<command> 查看MoreRPG帮助
+    aliases: [mr]
+  Skill:
+    description: 关于技能的命令
+    usage: §6[MoreRPG]§2/<command> 查看帮助

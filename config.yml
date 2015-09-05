@@ -1,0 +1,15 @@
+# 该插件由 幻猪(Mg_P) 制作
+
+moremonster:
+  monster:
+  - Zombie
+  chance: 10
+  max: 10
+skill:
+  sword:
+    id:
+    - 268
+    - 267
+    - 272
+    - 283
+    - 276
