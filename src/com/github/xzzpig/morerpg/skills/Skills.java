@@ -32,5 +32,47 @@ public class Skills {
 		return skills;
 	}
 	
+	public static SkillInfo getSkillInfo(String skill){
+		String name = null;
+		String zy = null;
+		int maxlevel = 0;
+		List<String> lore = new ArrayList<String>();
+		int cooldown = 0;
+		switch(skill){
+		case "Sword_defence":
+			name = "格挡";
+			zy = "JS";
+			maxlevel = 1;
+			cooldown = 1000;
+			{
+				lore.add("剑士技能");
+				lore.add("在一定时间内防御");
+			}
+			break;
+		case "Sword_rush":
+			name = "冲刺";
+			zy = "JS";
+			maxlevel = 1;
+			cooldown = 5000;
+			{
+				lore.add("剑士技能");
+				lore.add("快速冲向面对的敌人");
+			}
+			break;
+		case "Sword_tread":
+			name = "践踏";
+			zy = "JS";
+			maxlevel = 1;
+			cooldown = 5000;
+			{
+				lore.add("剑士技能");
+				lore.add("对一定范围内的敌人造成伤害");
+			}
+			break;
+		}
+		SkillInfo info = new SkillInfo(name, lore, zy, maxlevel,cooldown);
+		return info;
+	}
+	
 	
 }
